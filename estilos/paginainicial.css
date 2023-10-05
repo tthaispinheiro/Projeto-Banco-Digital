@@ -1,0 +1,983 @@
+body {
+
+    background-color: rgb(244, 242, 240);
+    width: 100%;
+    height: 1080px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+
+
+    height: 170px;
+    width: 1880px;
+    margin-left: -5px;
+
+
+
+}
+
+#cabeçalho {
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border: 10px;
+    border-style: double;
+    border-radius: 60px;
+    border-color: rgb(238, 209, 42);
+
+
+}
+
+#mLogo {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+
+
+
+#logomarca {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: inherit;
+    color: rgb(22, 15, 7);
+}
+
+#logoInternacional {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: inherit;
+    color: rgb(169, 88, 235);
+
+}
+
+#ilogin {
+    position: absolute;
+    margin-left: 1750px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+
+
+}
+
+#porta {
+
+    height: 40px;
+    width: 60px;
+    margin-left: 1740px;
+    margin-top: -20px;
+    position: absolute;
+
+
+
+}
+
+/*botões*/
+#inicio {
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+
+}
+
+
+
+#bankName {
+    position: absolute;
+    margin-left: 920px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+
+
+
+}
+
+
+#faleCnosc {
+    position: absolute;
+    margin-left: 1040px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+
+
+}
+
+
+main {
+    position: absolute;
+
+    height: 5490px;
+
+}
+
+#principal {
+    margin-top: 10px;
+    margin-left: 0px;
+    height: 1203px;
+    width: 1880px;
+    /* border-style: solid;
+    border-color: blueviolet; */
+
+}
+
+#folderPrincipal {
+    height: 1200px;
+    width: 1875px;
+    margin-left: 3px;
+    margin-top: 2px;
+
+}
+
+#contaGratis100 {
+
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -680px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+#VoceFazerAcontecer {
+    position: absolute;
+    margin-top: -810px;
+    margin-left: 990px;
+    height: 210px;
+    width: 758px;
+    background-color: rgb(175, 104, 242);
+    border-radius: 50px;
+
+}
+
+#paraVoceFazerAcontecer {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+
+
+
+
+
+}
+
+#bolinhaDecoracao {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border-radius: 150px;
+    background-color: rgb(143, 53, 228);
+    margin-left: -590px;
+
+
+
+}
+
+
+#bolinhaDecoracao1 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border-radius: 150px;
+    background-color: rgb(248, 224, 11);
+    margin-left: -350px;
+    margin-top: 280px;
+
+
+}
+
+#bolinhaDecoracao2 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border-radius: 150px;
+    background-color: rgb(245, 151, 45);
+    margin-left: 1200px;
+    margin-top: 20px;
+
+
+}
+
+
+#bolinhaDecoracao3 {
+
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border-radius: 150px;
+    background-color: rgb(25, 186, 250);
+    margin-left: 990px;
+    margin-top: 280px;
+
+
+
+}
+
+#carrossel {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    margin-top: 540px;
+    margin-left: 550px;
+
+
+}
+
+#botaoVoltar {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: solid;
+    border-radius: 20px;
+    border-color: rgb(14, 13, 12);
+    margin-left: -50px;
+    margin-top: -300px;
+    background-color: rgb(250, 194, 39);
+    color: rgb(17, 14, 14);
+    font-size: larger;
+
+
+
+}
+
+
+#botaoIr {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: solid;
+    border-radius: 20px;
+    border-color: rgb(14, 13, 12);
+    margin-left: 920px;
+    margin-top: -300px;
+    background-color: rgb(195, 96, 252);
+    color: rgb(17, 14, 14);
+    font-size: larger;
+
+
+
+}
+
+
+#formularioCpf {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    border: 4px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-left: 1400px;
+    margin-top: -490px;
+    background-color: rgb(251, 250, 249);
+
+
+}
+
+#peçaOSeuCartao {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-align: center;
+
+
+}
+
+#icpfVerificar {
+
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 210px;
+    height: 50px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(190, 126, 241);
+    font-size: larger;
+    text-align: center;
+
+}
+
+
+#continuar {
+
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 50px;
+    width: 210px;
+    border-style: solid;
+    border-radius: 50px;
+    background-color: rgb(179, 111, 242);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+#celFone {
+    position: absolute;
+    margin-left: 10px;
+    width: 100%;
+    height: 500px;
+    /* border: 5px;
+    border-style: solid;
+    border-color: blueviolet;*/
+    background-color: white;
+
+}
+
+#qr_code {
+    position: absolute;
+    margin-left: -360px;
+    margin-top: 160px;
+
+}
+
+#googlePlayEApp {
+
+    height: 60px;
+    width: 160px;
+    margin-left: -390px;
+    margin-top: 290px;
+    position: absolute;
+
+
+
+}
+
+#logoDoApp {
+    margin-top: -440px;
+    margin-left: 95px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: 10px;
+    border-style: double;
+    border-radius: 60px;
+    border-color: rgb(238, 209, 42);
+
+
+
+}
+
+#nDoApp {
+
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+
+#comOAplicativoVoceResolve {
+
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 220px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+
+
+}
+
+#perdeuOCartao {
+    position: absolute;
+    margin-left: 410px;
+    margin-top: -340px;
+    height: 90px;
+    width: 590px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 40px;
+    border-color: blueviolet;
+}
+
+#perdeuC {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 5px;
+    text-align: center;
+
+
+}
+
+
+#bloqueiePeloApp {
+
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+#querControlarOsGastos {
+
+    position: absolute;
+    margin-left: 480px;
+    margin-top: -210px;
+    height: 90px;
+    width: 610px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 40px;
+    border-color: rgb(238, 209, 42);
+
+}
+
+#quercontrolarOsGastos {
+
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#acesseSeuSaldo {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#imagemDeVantagens {
+
+    height: 680px;
+    width: 1180px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 695px;
+
+}
+
+#vantagens {
+    position: absolute;
+    margin-top: 1200px;
+    margin-left: 5px;
+    height: 685px;
+    width: 100%;
+
+    background-color: rgba(5, 82, 183, 0.852);
+}
+
+#tudoOqueVoceProcurou {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(245, 218, 66);
+    font-size: 40px;
+    margin-left: 390px;
+    margin-top: 40px;
+
+}
+
+#circleUm {
+    position: absolute;
+    height: 150px;
+    width: 420px;
+    border-radius: 180px;
+    background-color: rgb(235, 212, 10);
+    margin-top: 260px;
+    margin-left: 50px;
+}
+
+#segUros {
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#protecao {
+    position: absolute;
+    margin-left: 40px;
+    font-size: larger;
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+#circleDois {
+    position: absolute;
+    height: 150px;
+    width: 420px;
+    border-radius: 180px;
+    background-color: rgb(186, 83, 245);
+    margin-top: 390px;
+    margin-left: 50px;
+
+
+}
+
+#investimentos {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+#invest {
+    position: absolute;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 80px;
+    margin-top: -10px;
+
+
+}
+
+
+#vidaFinanceira {
+    height: 710px;
+    width: 100%;
+
+
+    margin-top: 1900px;
+    margin-left: 0px;
+
+
+}
+
+#tituloVidaFinanceira {
+
+    margin-left: 1130px;
+    margin-top: -290px;
+    position: absolute;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+#subVidaFinanceira {
+
+    margin-left: 1140px;
+    margin-top: 90px;
+    position: absolute;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+
+
+#financas {
+    height: 310px;
+    width: 320px;
+    border-radius: 210px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+
+#financas2 {
+    position: absolute;
+    height: 310px;
+    width: 320px;
+    border-radius: 210px;
+    margin-top: 180px;
+    margin-left: 90px;
+
+
+}
+
+#financas3 {
+
+    position: absolute;
+    height: 330px;
+    width: 320px;
+    border-radius: 210px;
+    margin-top: 380px;
+    margin-left: 440px;
+
+}
+
+
+
+#acreditamosVidaFCorpo {
+
+    position: absolute;
+    width: 100%;
+    height: 830px;
+    margin-top: 220px;
+    background-color: rgb(243, 189, 39);
+
+
+
+
+}
+
+#nosAcreditamosVidaFinanceira {
+
+    position: absolute;
+    width: 880px;
+    height: 770px;
+    margin-left: 50px;
+    border-radius: 390px;
+    margin-top: 50px;
+
+
+
+
+}
+
+#legendaNosAcreditamosQuesoVoce {
+
+    font-size: 50px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 1110px;
+    margin-top: 190px;
+
+
+
+
+}
+
+#saibaComo {
+    margin-left: 1380px;
+    margin-top: 490px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(169, 74, 233);
+    border-style: solid;
+    border-color: black;
+    border-radius: 180px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+#saibaComo:hover {
+
+    width: 250px;
+    height: 80px;
+
+}
+
+
+
+#quiz {
+
+    position: absolute;
+    width: 100%;
+    height: 610px;
+    margin-top: 1130px;
+    background-color: rgb(255, 255, 255);
+
+
+
+
+}
+
+
+#bolinhaZeroQuiz {
+
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border-radius: 150px;
+    background-color: rgb(143, 53, 228);
+    margin-left: 80px;
+    margin-top: 50px;
+
+}
+
+
+#bolinhaUmQuiz {
+
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border-radius: 150px;
+    background-color: rgb(243, 162, 12);
+    margin-left: 390px;
+    margin-top: 290px;
+
+}
+
+
+
+#imagemQuizHomemCartao {
+
+    position: absolute;
+    width: 400px;
+    height: 590px;
+    margin-left: 1490px;
+    border-radius: 20px;
+    margin-top: 10px;
+
+
+
+}
+
+#descubraQualCartaoIdealQuiz {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 160px;
+
+
+
+}
+
+
+
+
+.estiloQuiz {
+
+    position: absolute;
+    width: 400px;
+    height: 380px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-left: 750px;
+    margin-top: 80px;
+
+}
+
+
+.tituloQuizz {
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+label {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
+
+}
+
+#botaoFazerNovamenteQuiz {
+
+    width: 250px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 80px;
+    border-style: solid;
+    border-radius: 50px;
+
+}
+
+#botaoFazerNovamenteQuiz:hover {
+
+    background-color: rgb(187, 76, 252);
+
+
+
+
+}
+
+
+
+#quizCartao {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: 140px;
+    margin-top: -30px;
+
+
+
+}
+
+
+.camposPreencher {
+    position: absolute;
+    width: 220px;
+    height: 20px;
+    margin-top: 60px;
+    margin-left: 80px;
+
+
+}
+
+#verMeuCartaoQuiz {
+    margin-left: 90px;
+    margin-top: 60px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+#verMeuCartaoQuiz:hover {
+
+    background-color: rgb(233, 200, 12);
+
+
+
+}
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 290px;
+    background-color: rgb(10, 10, 9);
+    margin-top: 5690px;
+
+
+}
+
+
+#cabeçalhoFooter {
+
+    margin-left: 120px;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border: 10px;
+    border-style: double;
+    border-radius: 60px;
+    border-color: rgb(238, 209, 42);
+
+
+
+}
+
+#mLogoFooter {
+
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+
+
+
+}
+
+
+
+#baixeOAppFooter {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 200px;
+    font-size: 20px;
+
+
+
+}
+
+
+#aplicativoAppFooter {
+
+    width: 180px;
+    height: 110px;
+    margin-left: 230px;
+    margin-top: 50px;
+
+
+
+
+}
+
+
+#qrCodeFooter {
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    margin-left: 120px;
+    margin-top: -90px;
+
+
+}
+
+
+#atendimentoFooter {
+
+
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.945);
+    margin-left: 620px;
+    font-size: 20px;
+    margin-top: -180px;
+
+
+
+}
+
+
+
+#centralDeAtendimentoFooter {
+
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.616);
+    margin-left: 590px;
+    font-size: 15px;
+    margin-top: -180px;
+
+
+
+
+}
+
+
+#midiaSocialFooter {
+    position: absolute;
+    width: 390px;
+    height: 190px;
+    margin-left: 990px;
+    margin-top: -200px;
+
+
+}
+
+h5 {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 1110px;
+    margin-top: -200px;
+}

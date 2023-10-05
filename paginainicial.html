@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="./estilos/paginainicial.css">
+
+
+</head>
+
+<body>
+    <!--pen drive original-->
+    <!--cabeçalho-->
+    <header>
+
+        <div id="cabeçalho">
+            <h1 id="mLogo">N</h1>
+
+            <i id="logomarca">BANK NAME </i> <br>
+
+            <i id="logoInternacional">INTERNACIONAL</i>
+
+            <!--botões-->
+            <!--botao inicio-->
+            <a href="paginainicial.html"> <b id="inicio"> Início </b> </a>
+
+            <!--sobre a ampresa-->
+            <a href="SbankName.html"> <b id="bankName"> Bank
+                    Name </b>
+            </a>
+
+            <!--cartão de crédito cliente-->
+            <a href="faleConosco.html"> <b id="faleCnosc">Fale Conosco </b> </a>
+
+            
+
+            <!--icone de login ao lado superior direito-->
+            <a href="loginBank.html"> <b id="ilogin">Login</b> </a>
+
+            <a href="loginBank.html"> <img src="../PROJETO FINAL JAVASCRIPT/imagens/portaLogin.png" alt="" id="porta">
+            </a>
+
+        </div>
+    </header>
+
+
+    <!--aqui começa o corpo do site-->
+    <main>
+        <!--imagem central-->
+        <div id="principal">
+
+            <img src="./imagens/imagem2.jpeg" height="795px" width="100%" id="folderPrincipal">
+
+            <b id="contaGratis100">Conta grátis,
+                100% digital e com serviços ilimitados</b> <br>
+
+            <span id="VoceFazerAcontecer">
+
+                <b id="paraVoceFazerAcontecer">Para você <br>
+                    fazer acontecer</b>
+            </span>
+        </div>
+
+
+        <br>
+
+        <!--imagem do telefone com as propostas ao lado-->
+        <span id="celFone">
+
+            <img src="./imagens/celfone.jpg" alt="imagemDeUmaMãoPegandoOCelular" height="500px">
+
+            <img src="../PROJETO FINAL JAVASCRIPT/imagens/qr_code.png" alt="iconeQrCode" height="100px" id="qr_code">
+
+            <img src="../PROJETO FINAL JAVASCRIPT/imagens/isponivel-googleplay-e-appstore.png" alt=""
+                id="googlePlayEApp">
+
+            <div id="logoDoApp">
+                <h1 id="nDoApp">N</h1>
+            </div>
+
+
+            <b id="comOAplicativoVoceResolve">Com o aplicativo você resolve <br>
+                o que precisar, sem sair de casa.</b>
+
+            <!--perdeu o cartão-->
+            <div id="perdeuOCartao">
+
+                <h1 id="perdeuC"> Perdeu o cartão? </h1>
+                <b id="bloqueiePeloApp">Bloqueie pelo aplicativo e receba um cartão novo rapidinho.</b>
+
+            </div>
+
+            <!--controle dos gastos-->
+            <div id="querControlarOsGastos">
+
+                <h1 id="quercontrolarOsGastos"> Quer controlar seus gastos? </h1>
+
+                <b id="acesseSeuSaldo">Acesse seu saldo e fatura direto pelo aplicativo e a qualquer hora.</b>
+
+            </div>
+
+            <div id="querFazerCompras"></div>
+        </span>
+
+        <br>
+
+        <!--carrossel-->
+        <div id="carrossel">
+
+            <!--bolinha de decoracao0-->
+            <span id="bolinhaDecoracao"></span>
+            <span id="bolinhaDecoracao1"></span>
+            <span id="bolinhaDecoracao2"></span>
+            <span id="bolinhaDecoracao3"></span>
+
+            <img src="../PROJETO FINAL JAVASCRIPT/imagens/carrossel_principal.jpg" alt="" id="telaCarrossel"
+                style="border-radius: 40px;" height="550px" width="900px">
+
+            <!--botao voltar-->
+            <button id="botaoVoltar" onclick="aoClicarEmVoltar()"> <
+            </button>
+
+            <!--botao ir -->
+            <button id="botaoIr" onclick="aoClicarEmIr()">></button>
+        </div>
+
+
+        <!--formulario cpf-->
+
+        <div id="formularioCpf">
+
+            <b id="peçaOSeuCartao">Peça sua conta e cartão <br>
+
+                de crédito do BANK NAME</b> <br>
+
+            <br>
+
+            <input type="text" id="icpfVerificar" placeholder="Digite seu CPF" onkeypress="aoDigitarCpf()"
+                onblur="aoSairDoCpf()" onclick="aoClicarCpf()" maxlength="14">
+
+            <b id="aviso"></b>
+            </input> <br>
+            <!--botao de continuar -->
+            <a href="soliciteSeuCartao.html"> <a href="soliciteSeuCartao.html"><button id="continuar">
+                        Continuar</button></a>
+
+        </div>
+
+        <div id="vantagens">
+
+            <img src="../PROJETO FINAL JAVASCRIPT/imagens/vantagens2.jpeg" id="imagemDeVantagens">
+
+            <!--titulo -->
+            <b id="tudoOqueVoceProcurou">
+                Tudo o que você <br>
+                sempre procurou em <br>
+                um banco digital</b>
+
+            <!--circulo1 -->
+            <span id="circleUm">
+
+                <h1 id="segUros">Seguros </h1>
+                <b id="protecao">A proteção perfeita pra
+                    cuidar das suas <br>
+                    conquistas e bem-estar.</b>
+            </span>
+
+            <!--circulo2 -->
+            <span id="circleDois">
+
+                <h1 id="investimentos">Investimentos </h1>
+
+                <b id="invest">Uma carteira completa pra <br>
+                    qualquer objetivo ou perfil.</b>
+
+            </span>
+
+
+        </div>
+
+
+        <div id="vidaFinanceira">
+            <!--circulo 1-->
+            <img src="../PROJETO FINAL JAVASCRIPT/imagens/vidaFinanceira.jpeg" alt="" id="financas">
+
+            <!--circulo 2-->
+            <img src="../PROJETO FINAL JAVASCRIPT/imagens/vidaFinanceira2.jpg" alt="" id="financas2">
+
+            <!--circulo 3-->
+            <img src="../PROJETO FINAL JAVASCRIPT/imagens/investimentos.png" alt="" id="financas3">
+
+            <h1 id="tituloVidaFinanceira">O futuro é a razão que a gente faz planos.</h1>
+
+            <h3 id="subVidaFinanceira">Escolha o futuro. <br>
+                Comece a controlar melhor sua vida financeira.
+            </h3>
+
+        </div>
+        <div id="acreditamosVidaFCorpo">
+
+            <img src="../PROJETO FINAL JAVASCRIPT/imagens/garotoRindoComCartao.webp" alt=""
+                id="nosAcreditamosVidaFinanceira">
+
+            <h1 id="legendaNosAcreditamosQuesoVoce">Nós acreditamos que só <br>
+                uma pessoa pode ter <br>
+                controle sobre sua vida <br>
+                financeira: você.</h1>
+
+            <a href="SbankName.html"><button id="saibaComo">Saiba como</button></a>
+
+        </div>
+
+
+        <!--quiz-->
+        <div id="quiz">
+
+            <span id="bolinhaZeroQuiz"></span>
+            <span id="bolinhaUmQuiz"></span>
+
+            <img src="../PROJETO FINAL JAVASCRIPT/imagens/quizImagemCartao.jpg" alt="" id="imagemQuizHomemCartao">
+
+            <!--titulo do quiz-->
+            <h1 id="descubraQualCartaoIdealQuiz">Descubra qual é o <br>
+                cartão de crédito ideal
+                <br> para você
+            </h1>
+
+
+
+            <!--div da primeira pergunta-->
+            <div id="primeiraPergunta" class="estiloQuiz">
+                <h1 class="tituloQuizz">O que é mais importante para você?</h1>
+
+                <br>
+                <br>
+
+                <input type="radio" onclick="aoclicar('1')" class="inputsQuiz">
+                <label for="">Limite de Crédito Alto</label><br>
+                <br>
+
+
+                <input type="radio" onclick="aoclicar('1')" class="inputsQuiz">
+                <label for="">Crédito Imediato</label><br>
+                <br>
+
+
+                <input type="radio" onclick="aoclicar('1')" class="inputsQuiz">
+                <label for="">Sem consulta no SERASA</label> <br>
+
+
+            </div>
+
+
+            <br>
+
+            <!--questão dois -->
+
+            <div id="segundaPergunta" class="estiloQuiz">
+                <h1 class="tituloQuizz">Em qual grupo você se encaixa?</h1>
+
+                <br>
+                <br>
+                <input type="radio" onclick="aoclicar('2')">
+                <label for="">Aposentado / Pensionista / Servidor Público</label> <br>
+                <br>
+
+
+                <input type="radio" onclick="aoclicar('2')">
+                <label for="">Concurseiro / Estudante </label> <br>
+                <br>
+
+
+                <input type="radio" onclick="aoclicar('2')">
+                <label for="">Carteira assinada / Autonomo / Empreendedor</label> <br>
+                <br>
+
+
+                <input type="radio" onclick="aoclicar('2')">
+                <label for="">Estou Desempregado</label> <br>
+
+            </div>
+
+            <!--questão três -->
+            <div id="terceiraPergunta" class="estiloQuiz">
+
+                <h1 class="tituloQuizz">Você está negativado?</h1>
+
+                <br>
+                <br>
+
+                <input type="radio" onclick="aoclicar('3')">
+                <label for="">Sim</label> <br>
+                <br>
+
+
+                <input type="radio" onclick="aoclicar('3')">
+                <label for="">Não</label> <br>
+                <br>
+
+            </div>
+
+
+            <!--faltaPouco -->
+
+            <div id="faltaPouco" class="estiloQuiz">
+
+                <h2 class="tituloQuizz">Falta pouco!</h2>
+                <br>
+                <img src="../PROJETO FINAL JAVASCRIPT/videos/cartaogif.gif" alt="" id="quizCartao"> <br>
+
+                <br>
+                <br>
+                <br>
+
+                <input type="text"  placeholder="Insira seu nome" class="camposPreencher" onblur="aoDesfocarNome()" id="iNomeQuiz"> 
+                <b id="aviso0"></b>
+                <br>
+
+                <br>
+
+                <br>
+                <input type="text"  placeholder="Insira seu e-mail" class="camposPreencher" onblur="aoDesfocarEmail()" id="iEmailQuiz"> 
+                <b id="aviso1"></b>
+                <br>
+
+                <br>
+                <br>
+
+                <input type="submit" value="Ver meu cartão de crédito" onclick="aoclicar('4')" id="verMeuCartaoQuiz">
+
+            </div>
+
+
+            <!--Agradecimento quiz -->
+            <div id="agradecimentoQuiz" class="estiloQuiz">
+
+                <h1 class="tituloQuizz">Obrigado! em breve entraremos em contato</h1>
+
+                <br>
+                <br>
+
+                <input type="submit" value="Fazer o Quiz novamente" onclick="aoclicar('5')"
+                    id="botaoFazerNovamenteQuiz">
+
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="./script/paginaprincipal.js"></script>
+
+</body>
+
+
+<footer>
+
+    <div id="cabeçalhoFooter">
+        <h1 id="mLogoFooter">N</h1>
+
+        <br>
+
+        <b id="baixeOAppFooter">Baixe o App</b>
+        <img src="../PROJETO FINAL JAVASCRIPT/imagens/IconsAppStoreGoogleplay.png" id="aplicativoAppFooter" alt="">
+        <img src="../PROJETO FINAL JAVASCRIPT/imagens/qrCodeLaranja.png" alt="" id="qrCodeFooter">
+
+        <b id="atendimentoFooter">Atendimento</b> <br>
+        <br>
+        <p id="centralDeAtendimentoFooter"> Central de Relacionamento <br>
+            0800 000 001 <br>
+            <br>
+            SAC <br>
+            0800 000 1000 <br>
+            <br>
+            Ouvidoria <br>
+            0800 001 001 <br>
+            <br>
+            falabank@name.b.br <br>
+            <br>
+            Outros Contatos
+        </p>
+
+        <h5>Siga o Bank Name</h5>
+        <img src="../PROJETO FINAL JAVASCRIPT/imagens/iconSocial.png" alt="" id="midiaSocialFooter">
+
+</footer>
+
+</html>

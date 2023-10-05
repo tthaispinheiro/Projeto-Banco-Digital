@@ -1,0 +1,466 @@
+body {
+
+    background-color: rgb(244, 242, 240);
+    width: 100%;
+    height: 1080px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+
+
+    height: 170px;
+    width: 1880px;
+    margin-left: -5px;
+
+
+
+}
+
+#cabeçalho {
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border: 10px;
+    border-style: double;
+    border-radius: 60px;
+    border-color: rgb(238, 209, 42);
+
+
+}
+
+#mLogo {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+
+
+
+#logomarca {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: inherit;
+    color: rgb(22, 15, 7);
+}
+
+#logoInternacional {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: inherit;
+    color: rgb(169, 88, 235);
+
+}
+
+#ilogin {
+    position: absolute;
+    margin-left: 1750px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+
+
+}
+
+#porta {
+
+    height: 40px;
+    width: 60px;
+    margin-left: 1740px;
+    margin-top: -20px;
+    position: absolute;
+
+
+
+}
+
+/*botões*/
+#inicio {
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+
+}
+
+
+
+#bankName {
+    position: absolute;
+    margin-left: 920px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+
+
+
+}
+
+#faleCnosc {
+    position: absolute;
+    margin-left: 1040px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+
+
+}
+
+
+#principalImagem {
+    width: 880px;
+    height: 610px;
+    border-radius: 70px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 550px;
+
+
+
+
+}
+
+
+#sobreNos {
+
+    position: absolute;
+    margin-top: 720px;
+    margin-left: 950px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+#reinventandoPossivel {
+
+    position: absolute;
+    margin-top: 740px;
+    margin-left: 690px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+hr {
+
+    margin-top: 810px;
+    height: 5px;
+    width: 100%px;
+    background-color: rgb(247, 203, 7);
+    border-style: solid;
+    border-color: rgb(243, 227, 5);
+
+
+
+
+}
+
+#corpoHistoriaDaEmpresa {
+
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 690px;
+
+
+}
+
+#construindoOFuturo {
+    position: absolute;
+    margin-left: 110px;
+    text-align: center;
+    margin-top: -100px;
+    font-size: 50px;
+
+
+}
+
+
+p {
+
+    text-align: center;
+    margin-left: -10px;
+    font-size: 20px;
+
+
+}
+
+#yellow {
+
+    width: 100%;
+    height: 780px;
+    background-color: rgb(233, 199, 6);
+    position: absolute;
+    margin-top: 750px;
+
+
+
+}
+
+#imagemPrincipalDaDivYellow {
+
+    width: 990px;
+    height: 680px;
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 50px;
+    border-radius: 20px;
+
+
+
+}
+
+
+#somosDiferentes {
+
+    width: 1500px;
+    height: 1900px;
+    position: absolute;
+    margin-top: 1590px;
+
+    margin-left: 280px;
+    background-color: rgb(180, 120, 236);
+
+
+
+
+}
+
+#videoSomosDiferentes {
+
+    width: 510px;
+    height: 480px;
+    position: absolute;
+    margin-left: 120px;
+    border-radius: 280px;
+    margin-top: 290px;
+
+
+
+
+}
+
+#tituloSomosDiferentes {
+
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 60px;
+    font-size: 80px;
+    color: rgb(248, 248, 245);
+
+
+
+}
+
+
+#paragrafoSomosDiferentes {
+    position: absolute;
+    width: 690px;
+    height: 690px;
+    margin-left: 690px;
+    margin-top: 320px;
+
+
+
+
+
+}
+
+.pSomosDiferentes {
+
+    margin-top: 10px;
+    margin-left: 60px;
+    color: black;
+
+
+
+}
+
+#video_2SomosDiferentes {
+
+    width: 510px;
+    height: 480px;
+    position: absolute;
+    margin-left: 120px;
+    border-radius: 380px;
+    margin-top: 1100px;
+
+}
+
+
+#tituloContruidos {
+
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 1100px;
+    font-size: 60px;
+    color: rgb(248, 248, 245);
+    text-align: center;
+
+
+
+}
+
+#paragrafoConstruidoPelos {
+
+    position: absolute;
+    width: 690px;
+    height: 690px;
+    margin-left: 720px;
+    margin-top: 1390px;
+
+
+
+
+
+}
+
+.pConstruidos {
+
+    margin-top: 10px;
+    margin-left: 60px;
+    color: black;
+
+
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 290px;
+    background-color: rgb(10, 10, 9);
+    margin-top: 3491px;
+
+
+}
+
+
+#cabeçalhoFooter {
+
+    margin-left: 120px;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border: 10px;
+    border-style: double;
+    border-radius: 60px;
+    border-color: rgb(238, 209, 42);
+
+
+
+}
+
+#mLogoFooter {
+
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+
+
+
+}
+
+
+
+#baixeOAppFooter {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 200px;
+    font-size: 20px;
+
+
+
+}
+
+
+#aplicativoAppFooter {
+
+    width: 180px;
+    height: 110px;
+    margin-left: 230px;
+    margin-top: 50px;
+
+
+
+
+}
+
+
+#qrCodeFooter {
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    margin-left: 120px;
+    margin-top: -90px;
+
+
+}
+
+
+#atendimentoFooter {
+
+
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.945);
+    margin-left: 620px;
+    font-size: 20px;
+    margin-top: -180px;
+
+
+
+}
+
+
+
+#centralDeAtendimentoFooter {
+
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.616);
+    margin-left: 590px;
+    font-size: 15px;
+    margin-top: -180px;
+
+
+}
+
+
+
+#midiaSocialFooter {
+    position: absolute;
+    width: 390px;
+    height: 190px;
+    margin-left: 990px;
+    margin-top: -200px;
+
+
+}
+
+h5 {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 1110px;
+    margin-top: -200px;
+}

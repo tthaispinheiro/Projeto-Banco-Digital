@@ -1,0 +1,510 @@
+body {
+
+    background-color: rgb(222, 181, 247);
+    width: 100%;
+    height: 1080px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 150px;
+
+}
+
+#iVoltar {
+
+    position: absolute;
+    margin-left: 1710px;
+    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    background-color: blueviolet;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+
+
+
+
+}
+
+
+#cabeçalho {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border: 10px;
+    border-style: double;
+    border-radius: 60px;
+    border-color: rgb(255, 255, 255);
+
+
+}
+
+#mLogo {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+
+
+
+#querFalarComAgente {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: -50px;
+
+
+}
+
+#eSomandarMensagem {
+
+
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-top: 290px;
+    margin-left: 150px;
+    margin-top: 190px;
+    color: black;
+
+
+
+}
+
+
+
+
+#bancoDigi {
+
+    width: 410px;
+    height: 640px;
+    margin-left: 1320px;
+    margin-top: 80px;
+    border-radius: 150px;
+
+
+
+
+
+}
+
+
+
+#formularioFaleConosco {
+
+    
+    margin-top: -320px;
+    margin-left: 105px;
+    width: 890px;
+    
+
+
+
+}
+
+fieldset {
+border: 0ch;
+    margin-top: 50px;
+    width: 890px;
+    margin-left: -20px;
+    text-align: center;
+}
+
+input {
+
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 10px;
+    width: 260px;
+    height: 40px;
+
+}
+
+#iMensagemF {
+    margin-top: 50px;
+    margin-left: -10px;
+    width: 480px;
+    height: 250px;
+}
+
+
+
+h3 {
+
+    margin-left: -380px;
+
+
+
+}
+
+#mensagemForm {
+
+    margin-left: 160px;
+    font-size: 15px;
+    margin-top: 20px;
+
+
+
+}
+
+
+
+
+#enviar {
+
+    width: 160px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+#enviar:hover {
+
+    background-color: rgb(241, 180, 12);
+
+
+}
+
+#centralDeAtendimento {
+    position: absolute;
+    width: 320px;
+    height: 460px;
+    background-color: rgb(187, 151, 245);
+    margin-left: 290px;
+    margin-top: 180px;
+
+
+}
+
+
+#centralDeAtendimento:hover {
+
+
+    width: 310px;
+    height: 465px;
+    background-color: rgb(247, 213, 20);
+
+
+
+}
+
+#centralDeAtendimento2 {
+
+    position: absolute;
+    width: 320px;
+    height: 460px;
+    background-color: rgb(187, 151, 245);
+    margin-left: 790px;
+    margin-top: 180px;
+
+
+}
+
+
+#centralDeAtendimento2:hover {
+    width: 310px;
+    height: 465px;
+    background-color: rgb(247, 213, 20);
+
+}
+
+#centralDeAtendimento3 {
+
+    position: absolute;
+    width: 390px;
+    height: 460px;
+    background-color: rgb(187, 151, 245);
+    margin-left: 1260px;
+    margin-top: 180px;
+
+
+}
+
+#centralDeAtendimento3:hover {
+
+    width: 380px;
+    height: 465px;
+    background-color: rgb(247, 213, 20);
+}
+
+h3 {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 10px;
+
+}
+
+h6 {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 2px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+p {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 2px;
+    font-size: 12px;
+    margin-top: 80px;
+}
+
+.iSac {
+
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 2px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.paragrafo2 {
+
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 2px;
+    font-size: 12px;
+    margin-top: 210px;
+
+
+
+}
+
+.iOuvidoria {
+
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 2px;
+    font-size: 15px;
+
+
+}
+
+.paragrafo3 {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 2px;
+    font-size: 12px;
+    margin-top: 280px;
+
+
+}
+
+.iBia {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 2px;
+    font-size: 15px;
+
+}
+
+
+.paragrafo4 {
+
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 2px;
+    font-size: 12px;
+    margin-top: 370px;
+
+}
+
+#centralDiv2 {
+
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 10px;
+
+
+}
+
+
+#assessoriasCobranca {
+
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 10px;
+
+
+
+
+
+}
+
+#hR {
+
+    width: 40%;
+    margin-left: 625px;
+    margin-top: 820px;
+    border-style: solid;
+    color: aliceblue;
+
+
+}
+
+#falaNbank {
+    position: absolute;
+    margin-top: 1797px;
+    margin-left: 925px;
+    margin-top: 800px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(8, 6, 6);
+
+}
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 290px;
+    background-color: black;
+    margin-top: 90px;
+
+
+}
+
+
+#cabeçalhoFooter {
+
+    margin-left: 120px;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border: 10px;
+    border-style: double;
+    border-radius: 60px;
+    border-color: rgb(238, 209, 42);
+
+
+
+}
+
+#mLogoFooter {
+
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+
+
+
+}
+
+
+
+#baixeOAppFooter {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 200px;
+    font-size: 20px;
+
+
+
+}
+
+
+#aplicativoAppFooter {
+
+    width: 180px;
+    height: 110px;
+    margin-left: 230px;
+    margin-top: 50px;
+
+
+
+
+}
+
+
+#qrCodeFooter {
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    margin-left: 120px;
+    margin-top: -90px;
+
+
+}
+
+
+#atendimentoFooter {
+
+
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.945);
+    margin-left: 620px;
+    font-size: 20px;
+    margin-top: -180px;
+
+
+
+}
+
+
+
+#centralDeAtendimentoFooter {
+
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.616);
+    margin-left: 590px;
+    font-size: 15px;
+    margin-top: -180px;
+
+
+
+
+}
+
+
+#midiaSocialFooter {
+    position: absolute;
+    width: 390px;
+    height: 190px;
+    margin-left: 990px;
+    margin-top: -200px;
+
+
+}
+
+h5 {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 1110px;
+    margin-top: -200px;
+}

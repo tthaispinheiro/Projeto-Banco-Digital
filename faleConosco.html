@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="../PROJETO FINAL JAVASCRIPT/estilos/faleConosco.css">
+</head>
+
+<body>
+
+    <!--logomarca N-->
+    <header>
+
+        <div id="cabeçalho">
+            <h1 id="mLogo">N</h1>
+
+            <a href="paginainicial.html"> <button id="iVoltar">X</button> </a>
+
+    </header>
+
+    <!--titulo -->
+    <h1 id="querFalarComAgente">Quer falar com <br>
+        a gente?</h1>
+    <h5 id="eSomandarMensagem"> É só mandar sua mensagem por aqui ou ligar
+        <br> pra qualquer um dos números abaixo ;)
+    </h5>
+
+
+    <!--imagem principal-->
+    <img src="../PROJETO FINAL JAVASCRIPT/imagens/bancoDigit.jpg" alt="" id="bancoDigi">
+
+
+    <!--formulario fale conosco-->
+
+    <form action="" id="formularioFaleConosco">
+
+        <fieldset>
+            <input type="text" id="iNome" class="inputFale" placeholder="Nome Completo" onblur="aoDesfocarNome()">
+            <b id="aviso0Um"></b>
+
+            <input type="text" id="iEmail" class="inputFale" placeholder="E-mail" onblur="aoDesfocarEmail()">
+            <b id="aviso0Dois"></b>
+            <br>
+            <br>
+
+            <input type="text" id="iCelular" class="inputFale" placeholder="Celular" onblur="aoDesfocarCelular()"
+                onkeypress="aoDigitarCelular()" maxlength="14">
+            <b id="aviso0Tres"></b>
+
+            <input type="text" id="iCpf" class="inputFale" placeholder="CPF" onblur="aoDesfocarCpf()"
+                onkeypress="aoDigitarCpf()" maxlength="13">
+            <b id="aviso0Quatro"></b>
+
+            <br>
+            <br>
+            <br>
+            <textarea id="iMensagemF" cols="30" rows="10" class="inputFale"> </textarea>
+            <br>
+
+
+
+            <input type="submit" value="Enviar" id="enviar">
+
+
+
+        </fieldset>
+    </form>
+
+
+
+
+
+    <!--div1 -->
+    <div id="centralDeAtendimento">
+
+        <h3>Central de atendimento
+            <br> Bank Name
+        </h3>
+
+        <br>
+        <!--subtitulo central de relacionamento-->
+        <h6> Central de relacionamento </h6> <br>
+        <p> <u> 0800 275 6398 </u> <br>
+            <i> Atendimento 24 horas, 7 dias por semana </i> <br>
+            <br>
+            <!--sac-->
+            <b> SAC </b> <br>
+            <u> 0800 722 6398 </u> <br>
+            <i> Atendimento 24 horas, 7 dias por semana </i> <br>
+            <br>
+            <!--sac deficiente-->
+        <h6 class="iSac"> SAC – Deficiente auditivo ou de fala </h6>
+        <p class="paragrafo2"> <u> 0800 722 0099 </u> <br>
+
+            <i> Atendimento 24 horas, 7 dias por semana </i>
+        </p>
+
+        <!--ouvidoria-->
+        <h6 class="iOuvidoria">Ouvidoria </h6>
+
+        <p class="paragrafo3"> <u> 0800 688 6398 </u> <br>
+
+            Das 9h às 18h, de 2ª a 6ª feira, <br>
+            exceto feriados nacionais </p>
+
+        <!--BIA-->
+        <h6 class="iBia"> BIA – Inteligência Artificial </h6>
+
+        <p class="paragrafo4"> <u> (11) 99425-6398 </u>
+
+            Atendimento 24 horas, 7 dias por semana.
+        </p>
+
+
+    </div>
+
+    <!--div2-->
+    <div id="centralDeAtendimento2">
+
+        <h3 id="centralDiv2">Central de Atendimento
+            <br> OdontoPrev (Plano Dental)
+        </h3>
+
+        <br>
+        <!--subtitulo central de relacionamento-->
+        <h6> Central de relacionamento </h6> <br>
+        <p> <u> 0800 000 000 </u> <br>
+            <i> Atendimento 24 horas, 7 dias por semana </i> <br>
+            <br>
+            <!--sac-->
+            <b> SAC </b> <br>
+            <u> 0800 000 0000 </u> <br>
+            <i> Atendimento 24 horas, 7 dias por semana </i> <br>
+            <br>
+            <!--sac deficiente-->
+        <h6 class="iSac"> SAC – Deficiente auditivo ou de fala </h6>
+        <p class="paragrafo2"> <u> 0800 722 0099 </u> <br>
+
+            <i> Atendimento 24 horas, 7 dias por semana </i>
+        </p>
+
+        <!--ouvidoria-->
+        <h6 class="iOuvidoria">Ouvidoria </h6>
+
+        <p class="paragrafo3"> <u> 0800 688 6398 </u> <br>
+
+            Das 9h às 18h, de 2ª a 6ª feira, <br>
+            exceto feriados nacionais </p>
+
+        <!--BIA-->
+        <h6 class="iBia"> BIA – Inteligência Artificial </h6>
+
+        <p class="paragrafo4"> <u> (11) 99425-6398 </u>
+
+            Atendimento 24 horas, 7 dias por semana.
+        </p>
+
+    </div>
+
+    <!--div 3-->
+    <div id="centralDeAtendimento3">
+
+        <h3 id="assessoriasCobranca">Assessorias de cobrança
+            parceiras Bank Name:
+        </h3>
+
+        <br>
+        <!--subtitulo central de relacionamento-->
+        <h6> Central de Recuperação de Crédito - CRC: </h6> <br>
+        <p> <u> 0800 000 000 </u> <br>
+            <i> Atendimento 24 horas, 7 dias por semana </i> <br>
+            <br>
+            <!--sac-->
+            <b> SAC </b> <br>
+            <u> 0800 000 0000 </u> <br>
+            <i> Atendimento 24 horas, 7 dias por semana </i> <br>
+            <br>
+            <!--sac deficiente-->
+        <h6 class="iSac"> SAC – Deficiente auditivo ou de fala </h6>
+        <p class="paragrafo2"> <u> 0800 722 0099 </u> <br>
+
+            <i> Atendimento 24 horas, 7 dias por semana </i>
+        </p>
+
+        <!--ouvidoria-->
+        <h6 class="iOuvidoria">Ouvidoria </h6>
+
+        <p class="paragrafo3"> <u> 0800 688 6398 </u> <br>
+
+            Das 9h às 18h, de 2ª a 6ª feira, <br>
+            exceto feriados nacionais </p>
+
+        <!--BIA-->
+        <h6 class="iBia"> BIA – Inteligência Artificial </h6>
+
+        <p class="paragrafo4"> <u> (11) 99425-6398 </u>
+
+            Atendimento 24 horas, 7 dias por semana.
+        </p>
+    </div>
+
+    <b id="falaNbank"> falabank@namebank.b.br </b>
+    <hr id="hR">
+
+
+
+    <script src="./script/faleConosco.js"></script>
+</body>
+
+
+<footer>
+    <div id="cabeçalhoFooter">
+        <h1 id="mLogoFooter">N</h1>
+
+        <br>
+
+        <b id="baixeOAppFooter">Baixe o App</b>
+        <img src="../PROJETO FINAL JAVASCRIPT/imagens/IconsAppStoreGoogleplay.png" id="aplicativoAppFooter" alt="">
+        <img src="../PROJETO FINAL JAVASCRIPT/imagens/qrCodeLaranja.png" alt="" id="qrCodeFooter">
+
+        <b id="atendimentoFooter">Atendimento</b> <br>
+        <br>
+        <p id="centralDeAtendimentoFooter"> Central de Relacionamento <br>
+            0800 000 001 <br>
+            <br>
+            SAC <br>
+            0800 000 1000 <br>
+            <br>
+            Ouvidoria <br>
+            0800 001 001 <br>
+            <br>
+            falabank@name.b.br <br>
+            <br>
+            Outros Contatos
+        </p>
+
+        <h5>Siga o Bank Name</h5>
+        <img src="../PROJETO FINAL JAVASCRIPT/imagens/iconSocial.png" alt="" id="midiaSocialFooter">
+
+</footer>
+
+</html>

@@ -1,0 +1,221 @@
+body {
+
+    background-color: rgb(250, 226, 146);
+    width: 100%;
+    height: 1080px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#voltarParaInicio {
+
+    position: absolute;
+    border-style: solid;
+    border-color: rgb(159, 128, 245);
+    background-color: rgb(240, 139, 24);
+    color: rgb(22, 21, 17);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 1820px;
+    margin-top: 5px;
+}
+
+#completeOsCampos {
+    width: 980px;
+    height: 1780px;
+    position: absolute;
+    background-color: rgb(185, 139, 223);
+    border-radius: 10px;
+}
+
+
+#completeOsCamposCartao {
+    margin-top: 90px;
+    font-size: 40px;
+    margin-left: 160px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+
+}
+
+#homemComCartao1 {
+
+    width: 440px;
+    height: 440px;
+    border-radius: 330px;
+    margin-top: 100px;
+    margin-left: 160px;
+
+
+}
+
+#podeChamarEle {
+
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 160px;
+    border-radius: 100px;
+    background-color: rgb(253, 172, 51);
+
+
+
+}
+
+
+#zeroAnuidade {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: -490px;
+    margin-left: 710px;
+    border-radius: 100px;
+    background-color: rgb(253, 172, 51);
+
+
+}
+
+#homemComCartao2 {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    border-radius: 330px;
+    margin-top: 80px;
+    margin-left: 500px;
+
+}
+
+#mulherComCartao {
+
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    border-radius: 330px;
+    margin-top: 380px;
+    margin-left: 80px;
+
+
+
+}
+
+#gratuitoEPratico {
+
+    width: 200px;
+    height: 200px;
+    margin-top: 590px;
+    margin-left: 640px;
+    border-radius: 100px;
+    background-color: rgb(253, 172, 51);
+
+}
+
+
+
+#formularioCorpo {
+
+    position: absolute;
+    margin-left: 1020px;
+    margin-top: 50px;
+    height: 500px;
+    width: 800px;
+    text-align: center;
+
+}
+
+fieldset {
+
+    border-color: rgb(248, 248, 247);
+
+}
+
+label {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+input {
+
+    text-align: center;
+    border-radius: 10px;
+    width: 190px;
+    height: 20px;
+}
+
+.caixaTexto {
+
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.705);
+
+}
+
+#contaQueRende {
+
+    width: 390px;
+    height: 170px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(250, 155, 30);
+    margin-left: 190px;
+
+
+
+}
+
+#contaRende {
+
+    margin-top: 30px;
+    margin-left: -90px;
+
+}
+
+#queroTerContaQueRenda {
+
+    margin-left: -80px;
+    margin-top: -100px;
+}
+
+#semMensalidades {
+    position: absolute;
+    width: 430px;
+    height: 170px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(184, 63, 231);
+    margin-left: 180px;
+
+}
+
+#tagBankM {
+
+    margin-top: 30px;
+    margin-left: -80px;
+
+
+}
+
+#tagBankSemMensalidades {
+
+    margin-left: -80px;
+    margin-top: -100px;
+
+}
+
+
+#enviar {
+    position: absolute;
+    width: 80px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    background-color: darkorange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bolder;
+    margin-top: 190px;
+    margin-left: -50px;
+
+}

@@ -1,0 +1,153 @@
+body {
+
+    background-color: rgb(247, 224, 18);
+    background-image: url(../imagens/imagem1.jpg);
+    background-position: -220px;
+    width: 100%;
+    height: 1080px;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+header {
+    height: 150px;
+
+}
+
+#iVoltar{
+
+    position: absolute;
+    margin-left: 1710px;
+    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    background-color: blueviolet;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+
+
+
+
+}
+
+
+#cabeçalho {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border: 10px;
+    border-style: double;
+    border-radius: 60px;
+    border-color: rgb(255, 255, 255);
+
+
+}
+
+#mLogo {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+
+#corpoLogin {
+    position: absolute;
+    width: 410px;
+    height: 510px;
+    margin-left: 770px;
+    margin-top: 80px;
+    background-color: rgb(101, 9, 206);
+    border-radius: 50px;
+    display: flexbox;
+
+}
+
+/*#corpoLogin:hover {
+
+    width: 620px;
+    height: 420px;
+    transition: 2s;
+
+
+}/*/
+
+
+
+legend {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 130px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+
+}
+
+
+form {
+
+    margin-top: 140px;
+    font-size: 20px;
+    color: white;
+    margin-left: 110px;
+
+
+
+}
+
+input {
+
+    width: 180px;
+    font-size: 15px;
+    font: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+#acessarLogin {
+
+    height: 50px;
+    width: 100px;
+    margin-left: 35px;
+    margin-top: 20px;
+    border: 5px;
+    border-radius: 2px;
+    background-color: rgb(252, 252, 252);
+    color: rgb(19, 10, 10);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
+
+
+}
+
+#acessarLogin:hover {
+
+    background-color: rgb(252, 207, 7);
+    color: black;
+
+
+
+}
+
+
+b{
+
+font-size: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 30px;
+color: rgb(250, 247, 65);
+
+
+
+
+}

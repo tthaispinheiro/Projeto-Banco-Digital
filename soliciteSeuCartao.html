@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title>Solicite seu cartão</title>
+    <link rel="stylesheet" href="../PROJETO FINAL JAVASCRIPT/estilos/soliciteSeuCartao.css">
+</head>
+
+<body>
+<!--pen drive backup-->
+    <div id="completeOsCampos">
+
+        <h1 id="completeOsCamposCartao">
+            Complete os campos ao <br>
+            lado para pedir sua Conta <br>
+            e Cartão de crédito
+        </h1>
+
+        <!--imagem principal -->
+        <img src="../PROJETO FINAL JAVASCRIPT/imagens/homemcomcartao.png" alt="" id="homemComCartao1"> <br>
+
+        <div id="zeroAnuidade">
+
+        </div>
+
+        <!--primeira bolinha-->
+        <div id="podeChamarEle">
+            
+        </div> <br>
+
+        <!--segunda imagem-->
+        <img src="../PROJETO FINAL JAVASCRIPT/imagens/homemComCartao2.jpg" alt="" id="homemComCartao2"> <br>
+        
+        <!--terceira imagem mulher-->
+        <img src="../PROJETO FINAL JAVASCRIPT/imagens/mulher-segurando-um-cartao.jpg" alt="" id="mulherComCartao"> <br>
+
+        <div id="gratuitoEPratico">
+            <b id="legendaGratuito">
+        </div> <br>
+
+
+    </div> <br>
+
+    <!--botão de voltar-->
+    <a href="./paginainicial.html"><button id="voltarParaInicio"> <b>X</b></button> </a>
+
+    <form action="" id="formularioCorpo">
+
+
+        <!--cpf-->
+        <label for=""> <b> CPF </b> </label> <br>
+        <input type="text" id="icpf" class="caixaTexto" maxlength="14" onclick="aoClicarCpf()"
+            onblur="aoPerderFocoCpf()" onkeypress="aoDigitarCpf()" onchange="aoMudarCpf()">
+
+        <b id="aviso0"></b><br>
+
+        <br>
+
+        <!--RG-->
+        <label for=""> <b> RG </b> </label> <br>
+        <input type="text" id="iRg" class="caixaTexto" maxlength="9" onclick="aoClicarRg()" onkeypress="aoDigitarRg()"
+            onblur="aoPerderFocoRg()">
+
+        <b id="aviso1"></b><br>
+        <br>
+
+        <!--nome-->
+        <label for=""> <b>Nome Completo</b> </label> <br>
+        <input type="text" id="iNomeCompleto" class="caixaTexto" onblur="aoPerderOFocoNome()">
+
+        <b id="aviso2"></b><br>
+        <br>
+
+        <br>
+        <!--celular-->
+        <label for=""> <b>Celular</b> </label> <br>
+        <input type="text" id="icelular" class="caixaTexto" onblur="aoPerderOFocoCelular()"
+            onkeypress="aoDigitarCelular()" maxlength="14">
+
+        <b id="aviso3"></b>
+
+
+        <br>
+
+        <br>
+        <!--email-->
+        <label for=""> <b>E-mail</b> </label> <br>
+        <input type="text" id="iEmail" class="caixaTexto" onblur="aoPerderFocoEmail()" onkeypress="aoDigitarEmail()">
+        <b id="aviso4"></b>
+        <br>
+
+        <br>
+        <!--confirmação de email-->
+        <label for=""> <b>Confirmação de e-mail</b> </label> <br>
+        <input type="text" id="confirmarEmail" class="caixaTexto" onblur="aoPerderFocoConfirmEmail()">
+        <b id="aviso5"></b>
+        <br>
+
+        <br>
+        <!--gênero-->
+        <label for=""> <b>Gênero</b></label> <br>
+
+        <select id="iGenero">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+
+        </select> <br>
+
+        <br>
+        <!--estado civil-->
+        <label for=""> <b>Estado Civil</b> </label> <br>
+        <select id="EstadoCivil">
+
+            <option value="solteiro">Solteiro</option>
+            <option value="casado">Casado</option>
+            <option value="divorciado">Divorciado</option>
+            <option value="viuvo">Viúvo</option>
+
+
+        </select>
+
+        <hr>
+        <!--informações adicionais-->
+        <h2>Informações adicionais</h2> <br>
+
+        <!--cep-->
+        <label for=""> <b>CEP</b> </label> <br>
+        <input type="text" id="iCep" class="caixaTexto" onblur="aoPerderFocoCep()" onkeypress="aoDigitarCep()"
+            maxlength="8">
+        <b id="aviso6"></b>
+        <br>
+
+        <br>
+        <!--complemento-->
+        <label for=""> <b>Complemento</b> </label> <br>
+        <input type="text" id="iComplemento" class="caixaTexto" onblur="aoPerderFocoComplemento()">
+        <b id="aviso7"></b>
+        <br>
+        <br>
+        <!--cidade-->
+        <label for=""> <b>Cidade</b> </label> <br>
+        <input type=" text" id="iCidade" class="caixaTexto" onblur="aoPerderFocoCidade()">
+
+        <b id="aviso8"></b>
+        <br>
+        <br>
+        <!--estados-->
+
+        <label for=""> <b>Estado</b> </label> <br>
+        <select id="iEstados">
+
+            <option value="acre">AC</option>
+            <option value="alagoas">AL</option>
+            <option value="amazonas">AM</option>
+            <option value="amapa">AP</option>
+            <option value="bahia">BA</option>
+            <option value="ceara">CE</option>
+            <option value="distritof">DF</option>
+            <option value="espiritosanto">ES</option>
+            <option value="goias">GO</option>
+            <option value="maranhao">MA</option>
+            <option value="matogrosso">MG</option>
+            <option value="matogrssodos">MS</option>
+            <option value="minasg">MG</option>
+            <option value="para">PA</option>
+            <option value="paraiba">PB</option>
+            <option value="parana">PR</option>
+            <option value="pernambuco">PE</option>
+            <option value="piaui">PI</option>
+            <option value="riodej">RJ</option>
+            <option value="riograndn">RN</option>
+            <option value="rondonia">RO</option>
+            <option value="riogrands">RS</option>
+            <option value="roraim">RR</option>
+            <option value="santac">SC</option>
+            <option value="sergipe">SE</option>
+            <option value="saopaulo">SP</option>
+            <option value="tocantins">TO</option>
+
+
+        </select> <br>
+
+        <!--ocupação-->
+        <label for=""> <b>Natureza da ocupação</b> </label> <br>
+        <select id="profissao">
+
+            <option value="aposentado">Aposentado pensionista</option>
+            <option value="assalariado">Assalariado</option>
+            <option value="autonomo">Autonomo</option>
+            <option value="dona de casa">Dona de Casa</option>
+            <option value="estudante">Estudante</option>
+            <option value="cooperado">Cooperado</option>
+            <option value="funcionarioPubl">Funcionário Publico</option>
+            <option value="militar">Militar</option>
+            <option value="acionista">Acionista</option>
+            <option value="outros">Outros</option>
+
+        </select> <br>
+        <hr>
+        <h2>Dados Pessoais</h2>
+        <!--nacionalidade-->
+        <label for=""> <b>Nacionalidade</b> </label> <br>
+        <input type="text" id="iNacionalidade" class="caixaTexto" onblur="aoPerderFocoNacionalidade()">
+        <b id="aviso9"></b>
+        <br>
+        <!--Data de nascimento-->
+        <label for="">Data de Nascimento</label> <br>
+        <input type="date" id="dataNascimento"> <br>
+        <br>
+        <!--estado de nascimento-->
+        <label for=""> <b>Estado de nascimento</b> </label>
+
+        <select id="estadoNascimento">
+
+            <option value="acre">AC</option>
+            <option value="alagoas">AL</option>
+            <option value="amazonas">AM</option>
+            <option value="amapa">AP</option>
+            <option value="bahia">BA</option>
+            <option value="ceara">CE</option>
+            <option value="distritof">DF</option>
+            <option value="espiritosanto">ES</option>
+            <option value="goias">GO</option>
+            <option value="maranhao">MA</option>
+            <option value="matogrosso">MG</option>
+            <option value="matogrssodos">MS</option>
+            <option value="minasg">MG</option>
+            <option value="para">PA</option>
+            <option value="paraiba">PB</option>
+            <option value="parana">PR</option>
+            <option value="pernambuco">PE</option>
+            <option value="piaui">PI</option>
+            <option value="riodej">RJ</option>
+            <option value="riograndn">RN</option>
+            <option value="rondonia">RO</option>
+            <option value="riogrands">RS</option>
+            <option value="roraim">RR</option>
+            <option value="santac">SC</option>
+            <option value="sergipe">SE</option>
+            <option value="saopaulo">SP</option>
+            <option value="tocantins">TO</option>
+
+            <br>
+
+        </select> <br>
+        <br>
+
+        <!--nome da mãe-->
+        <label for=""> <b>Nome da mãe</b> </label> <br>
+        <input type="text" id="iNomedaMae" class="caixaTexto" onblur="aoPerderFocoNomeMae()">
+        <b id="aviso10"></b>
+        <br>
+
+        <!--dia de vencimento da fatura-->
+        <label for=""> <b>Vencimento da fatura</b> </label> <br>
+        <input type="number" id="vencimentoFatura" min="1" max="26">
+        <br>
+        <hr>
+
+        <h2>Personalização</h2>
+        <i> Os serviços podem ser solicitados <br> ou cancelados a qualquer momento.</i> <br>
+        <br>
+
+        <!--primeira div com beneficios-->
+        <div id="contaQueRende">
+
+            <input type="checkbox" id="contaRende">
+            <label for="" id="queroTerContaQueRenda"> <b> Quero ter uma conta que renda mais que a poupança
+                </b></label> <br>
+
+            <br>
+            <i>No BankName você transfere e recebe sem taxas, 24h por dia com o Pix, paga boletos, faz recarga de
+                celular, pode cadastrar qualquer cartão de crédito e seu dinheiro no saldo rende 100% do CDI o mês
+                todo. </i>
+
+        </div>
+        <br>
+        <!--segunda div com beneficios-->
+        <div id="semMensalidades">
+
+            <input type="checkbox" id="tagBankM">
+            <label for="" id="tagBankSemMensalidades"> <b> Name sem mensalidades.
+                </b></label> <br>
+
+            <br>
+            <i>Passe automaticamente em pedágios e estacionamentos sem qualquer cobrança de mensalidade pagando com
+                seu cartão Bank Name elegível! Se tiver interesse na Tag Name, você receberá um e-mail da ConectCar
+                para
+                confirmação do pedido. </i>
+
+        </div>
+
+        <br>
+
+        <input type="submit" value="Enviar" id="enviar">
+
+
+
+    </form>
+
+
+
+    <script src="../PROJETO FINAL JAVASCRIPT/script/soliciteSeuCartao.js"></script>
+</body>
+
+</html>

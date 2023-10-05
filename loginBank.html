@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title>login</title>
+    <link rel="stylesheet" href="../PROJETO FINAL JAVASCRIPT/estilos/loginEstilo.css">
+</head>
+
+<body>
+    <!--logomarca N-->
+    <header>
+
+        <div id="cabeçalho">
+            <h1 id="mLogo">N</h1>
+
+            <a href="paginainicial.html"> <button id="iVoltar">X</button> </a>
+
+    </header>
+
+    <!--corpo do login usando uma div e colocando cor roxa-->
+    <div id="corpoLogin">
+
+        <legend>Seu Login</legend> <br>
+
+        <!--formulário para preencher usuario e senha-->
+        <form action="">
+            
+            <!--preencher com cpf-->
+            <label for="">CPF</label> <br>
+
+            <input type="text" id="iCpf" onkeypress="aoDigitarCpfLogin()" onblur="aoPerderOFocoCpfLogin()"
+                maxlength="14" onmouseover="aoPassarOMouseCpf()"> <b id="aviso"></b> <br>
+
+            <br>
+
+            <label for="">Senha</label> <br>
+            <input type="password" id="iSenha" onblur="aoPerderOFocoSenha()"> <b id="aviso1"></b>
+
+            <br>
+            <br>
+
+            <input type="submit" value="Acessar" id="acessarLogin"> <br>
+            <br>
+
+            <b>Esqueci minha senha > </b>
+            <br>
+            <b>Ainda não sou cliente > </b>
+        </form>
+    </div>
+
+
+    <script src="../PROJETO FINAL JAVASCRIPT/script/login.js"></script>
+</body>
+
+</html>
